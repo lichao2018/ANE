@@ -1,0 +1,13 @@
+<extension xmlns="http://ns.adobe.com/air/extension/28.0">
+  <id>com.adobe.lc</id>
+  <versionNumber>1</versionNumber>
+  <platforms>
+    <platform name="Android-ARM">
+      <applicationDeployment>
+        <nativeLibrary>LCANE.jar</nativeLibrary>
+        <initializer>com.adobe.lc.LCANE</initializer>
+        <finalizer>com.adobe.lc.LCANE</finalizer>
+      </applicationDeployment>
+    </platform>
+  </platforms>
+</extension>
