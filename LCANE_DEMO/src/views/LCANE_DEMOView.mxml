@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark" title="Flash构建的主页视图">
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[
+			import com.adobe.lc.LCASExtension;
+			public function button_clickHandler(event:MouseEvent):void
+			{
+				var ane:LCASExtension = new LCASExtension();
+				ane.gotoAndroidActivity();
+			}
+		]]>
+	</fx:Script>
+	<s:Button x="50" y="50" label="GoToAndroidActivity" click="button_clickHandler(event)"/>
+</s:View>
