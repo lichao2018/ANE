@@ -4,5 +4,7 @@
     <string name="app_name">LCANE_Java</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="android_activity">一个Android ACTIVITY</string>
+    <string name="show_as_msg">显示AS信息</string>
 
 </resources>

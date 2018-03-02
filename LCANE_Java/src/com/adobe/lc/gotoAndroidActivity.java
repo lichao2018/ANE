@@ -15,6 +15,8 @@ public class gotoAndroidActivity implements FREFunction{
 	public FREObject call(FREContext context, FREObject[] asArgs) {
 		Intent intent = new Intent(context.getActivity(), MainActivity.class);
 		try {
+			intent.putExtra("layoutID", context.getResourceId("layout.activity_main"));
+			intent.putExtra("btnID", context.getResourceId("id.btn_showASMsg"));
 			intent.putExtra("asMsg", asArgs[0].getAsString());
 		} catch (IllegalStateException e) {
 			e.printStackTrace();
