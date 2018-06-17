@@ -31,7 +31,7 @@
 
 ## 打包ANE文件
 * extension.xml文件
-```
+```xml
 <extension xmlns="http://ns.adobe.com/air/extension/28.0">
     <id>com.adobe.sampleasextension</id>
     <versionNumber>1</versionNumber>
